@@ -1,0 +1,38 @@
+# =====================
+# Python
+# =====================
+__pycache__/
+*.py[cod]
+*.pyo
+ 
+# =====================
+# Virtual Environments
+# =====================
+venv/
+.env
+ 
+# =====================
+# MLflow
+# =====================
+mlruns/
+mlartifacts/
+mlflow.db
+ 
+# =====================
+# Airflow
+# =====================
+airflow/logs/
+airflow/__pycache__/
+ 
+# =====================
+# OS / Editor
+# =====================
+.DS_Store
+.vscode/
+.idea/
+ 
+# =====================
+# Temporary / Cache
+# =====================
+*.log
+*.tmp
