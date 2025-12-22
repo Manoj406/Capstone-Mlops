@@ -14,12 +14,6 @@ pipeline {
                 sh 'docker build -t cal-housing-api:latest .'
             }
         }
- 
-        stage('Smoke Test') {
-            steps {
-                sh 'echo "Smoke test passed"'
-            }
-        }
     }
 }
  
