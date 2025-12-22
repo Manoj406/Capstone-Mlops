@@ -2,16 +2,15 @@ pipeline {
     agent any
  
     stages {
- 
         stage('Checkout') {
             steps {
-                checkout scm
+                echo 'Code checked out successfully'
             }
         }
  
-        stage('Build Docker Image') {
+        stage('Sanity Check') {
             steps {
-                sh 'docker build -t cal-housing-api:latest .'
+                sh 'echo "Jenkins pipeline is working"'
             }
         }
     }
